@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Lato' 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #424242;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+._ {
+    background: #1B1C25;
+}
+
+.button_group {
+    width: 54%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+._s,
+._l {
+    width: 50%;
+    padding: 3%;
+}
+
+.pagination .page-item {
+    background: #424242!important;
+}
+
+.pagination .page-link {
+    background: #424242!important;
+}
+
+._s {
+    border-radius: 15px 0px 0px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    margin-left: 27%;
+}
+
+.selected {
+    height: 100vh;
+    border-radius: 15px;
+    background: #424242;
+}
+
+.w3-sidebar {
+    background: #616161;
+    height: 100vh;
+}
+
+.accordion div {
+    background: #424242;
+    color: lightgray;
+}
+
+.accordion .accordion-header {
+    background: #424242;
+    color: lightgray;
+}
+
+.accordion .accordion-button {
+    background: #424242;
+    color: lightgray;
+}
+
+.accordion-button:focus {
+    outline: none;
+}
+
+.d-btn {
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: lightgray;
+    width: 55%;
+    padding: 2%;
+}
+
+
+/* .selected-bar {
+   
+} */
+
+@media screen and (max-width:767px) {
+    .selected {
+        height: auto;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.img-item {
+    background: #616161;
+    border-radius: 12px;
+    color: lightgray;
+}
+
+.img-item img {
+    border-radius: 12px 12px 0 0;
+}
+
+@media screen and (max-width:600px) {
+    .main {
+        padding: 0%;
+        margin: auto;
+        width: 100%;
+    }
+}
