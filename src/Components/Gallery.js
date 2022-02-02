@@ -1,8 +1,7 @@
 import Images from "./images";
 import Selected from "./Selected"
 import Pagination from './pagination';
-import {useQuery} from 'react-query'
-import {useState,useEffect} from 'react'
+import {useEffect} from 'react'
 import axios from 'axios'
 import {createClient} from 'pexels'
 
