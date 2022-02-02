@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch,Route,Link } from "react-router-dom";
-import { useQuery,QueryClient,QueryClientProvider } from 'react-query'
+import {QueryClient,QueryClientProvider } from 'react-query'
 import Gallery from "./Components/Gallery";
 import Favourite from "./Components/Fav"
 
