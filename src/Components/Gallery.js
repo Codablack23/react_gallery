@@ -2,7 +2,6 @@ import Images from "./images";
 import Selected from "./Selected"
 import Pagination from './pagination';
 import {useEffect} from 'react'
-import axios from 'axios'
 import {createClient} from 'pexels'
 
 const client = createClient('563492ad6f91700001000001ee277c74d4fc4168ad0c635f9776fea3');
